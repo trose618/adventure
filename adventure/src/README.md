@@ -55,7 +55,7 @@ After writing the lines for a particular data type, the last line
 should strictly say END
 
 file set up for - rooms
-6 lines - don't include line # E.g: line 1 - name, would just be name
+6 lines - don't include line # E.g: line 1 - name, would just be name.
 line 1 - name
 line 2 - adjacent rooms
 line 3 - room accessibility ("locked" or "unlocked") 

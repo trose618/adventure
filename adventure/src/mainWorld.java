@@ -37,7 +37,7 @@ public class mainWorld extends Thread {
 				System.out.println("You have 5 minutes! Hope you're almost ready.");
 			}
 			if (i == 150) {
-				System.out.println("You have 2 and a half minutes left. Calling it close, as I typically do.");
+				System.out.println("You have 2 and a half minutes left. Calling it close, as Bobby typically does.");
 			}
 			if (i == 60) {
 				System.out.println("Last minute! Get Out!");
@@ -95,7 +95,7 @@ public class mainWorld extends Thread {
 		mainWorld world1 = new mainWorld();
 		world1.start();
 
-		System.out.println("Welcome to a day in...well, a morning in the life of Terrance Rose Jr.");
+		System.out.println("Welcome to a day in...well, a morning in the life of Bobby.");
 		System.out.println("For a list of instructions, type help.");
 		System.out.println("You are in the " + you.getRoomName());
 
@@ -698,7 +698,7 @@ public class mainWorld extends Thread {
 		// victory condition to be set to the desired condition. Set to
 		// finishing last task in task list
 		if (tasks.get(tasks.size() - 1).getCompletionStatus() == true) {
-			System.out.println("Well, looks like you managed to get me out in time. Great job!" + " Total score: "
+			System.out.println("Well, looks like you managed to get Bobby out in time. Great job!" + " Total score: "
 					+ player.getScore());
 			System.exit(0);
 		}
@@ -708,7 +708,7 @@ public class mainWorld extends Thread {
 	 * Closes the game
 	 */
 	private static void gameOver() {
-		System.out.println("Well, Looks like I'm late once again. Good try though. I say give it another shot.");
+		System.out.println("Well, looks like Bobby's late once again. Good try though. I say give it another shot.");
 		System.exit(0);
 	}
 }// end of mainWorld

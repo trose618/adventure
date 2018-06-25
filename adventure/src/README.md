@@ -55,34 +55,34 @@ After writing the lines for a particular data type, the last line
 should strictly say END
 
 file set up for - rooms
-6 lines - don't include line # E.g: line 1 - name, would just be name.
-line 1 - name
-line 2 - adjacent rooms
-line 3 - room accessibility ("locked" or "unlocked") 
-line 4 - description of room (if locked then description of what to 
-display when trying to access room)
-line 5 - description continued if need be and etc for longer description.
+6 lines - don't include line # E.g: line 1 - name, would just be name.<br/>
+line 1 - name<br/>
+line 2 - adjacent rooms<br/>
+line 3 - room accessibility ("locked" or "unlocked") <br/>
+line 4 - description of room (if locked then description of what to
+display when trying to access room)<br/>
+line 5 - description continued if need be and etc for longer description.<br/>
 last line - END
 
-for adjacent rooms, say for example north, south, east, and west are the rooms in the corresponding directions from the one you are in.  They would be entered as: north, south, east, west  with a - meaning no room in that direction. So if there were no west and north, it would look like:
+for adjacent rooms, say for example north, south, east, and west are the rooms in the corresponding directions from the one you are in.  They would be entered as: north, south, east, west  with a - meaning no room in that direction. So if there were no west and north, it would look like:<br/>
 
--, south, east, -
-
-
-
-file set up - objects
-line 1 - name
-line 2 - room object is placed
-line 3 - description
-line 4 - END
+-, south, east, -<br/>
 
 
 
-file set up - tasks - scoring
-line 1 - name of task
-line 2 - type - E.g: pick up, drop, visit - if visit, then line 4 should say "None"
-line 3 - points awarded - E.g: 50, 100
-line 4 - Name of item as appears on objects list.("None" if task type is visit.)
-line 5 - Name of room where quest is completed.
-line 6 - Description
-line 7 - END
+file set up - objects<br/>
+line 1 - name<br/>
+line 2 - room object is placed<br/>
+line 3 - description<br/>
+line 4 - END<br/>
+
+
+
+file set up - tasks - scoring<br/>
+line 1 - name of task<br/>
+line 2 - type - E.g: pick up, drop, visit - if visit, then line 4 should say "None"<br/>
+line 3 - points awarded - E.g: 50, 100<br/>
+line 4 - Name of item as appears on objects list.("None" if task type is visit.)<br/>
+line 5 - Name of room where quest is completed.<br/>
+line 6 - Description<br/>
+line 7 - END<br/>
